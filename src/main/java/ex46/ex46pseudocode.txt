@@ -1,0 +1,28 @@
+Public Class App
+Public Static Void main
+    Try for an exception
+        Create a file with the name "exercise46_input.txt"
+
+        Create a Scanner to read the file
+
+        Create a Map with a String and Integer variables
+
+        While the file has another line
+            Store the word in a variable
+            If the Map contains a key word
+                Add one to the counter
+                Put the key word and the counter plus one into the Map
+            Else
+                Put the keyword and 1 into the Map
+
+        Call the PrintOutput class to print the output
+
+    Catch an exception
+
+Public Class PrintOutput
+Public Static Void print
+    Create a Set that gets the keySet of the called Map
+    For as long as there is a key in the set
+        Print out the name of the key with a colon after
+        For as long as i is greater than number of keys
+            Print out "*"

@@ -1,0 +1,65 @@
+Public Class App
+Public Static Void main
+    Create a Scanner object to obtain input from the user
+
+    Create a WebsiteGenerator object
+
+    Prompt the user for the site name
+    Get the site name from the user
+
+    Prompt the user for the author
+    Get the author from the user
+
+    Prompt the user for if they want a JavaScript folder
+    Get the answer from the user
+
+    Prompt the user for if they want a CSS folder
+    Get the answer from the user
+
+    Give the author to the author variable in the WebsiteMaker class
+    Give the web name to the webname variable in the WebsiteMaker class
+    Give "./website/" to the directorypath in the WebsiteMaker class
+
+    Print out "Created " followed by the result of the createWebsite method
+    Print out "Created " followed by the result of the html method
+
+    If the user entered "y" or "Y" for javascript
+        Print out "Created " followed by the result of the javascriptWebsite method
+    If the user entered "y" or "Y" for css
+        Print out "Created " followed by the result of the cssWebsite method
+
+Public Class WebsiteMaker
+
+Create instance String variable directorypath
+
+    Public String createWebsite
+        Declare a string that will combine both path and webname
+        Create a file, whose name will be the String variable's
+        Put the file in the directory
+        Return the String
+
+    Public String html
+        Declare a string that combine path and webname and "/index.html"
+        Create a String
+        Create a new file
+        Try for an exception
+            Create a FileWriter
+            Write the second String declared in the method into the FileWriter
+            Close the file
+        Catch the exception
+            Do nothing
+
+        return the first String
+
+    Public String javascriptWebsite
+        Declare a string that will combine both path and webname and "/jss/"
+        Create a new file with the name of the String
+        Put the folder into the directory
+        Return the string
+
+    Public String cssWebsite
+        Declare a string that will combine both path and webname and "/css/"
+        Create a new file with the name of the String
+        Put the folder into the directory
+        Return the String
+

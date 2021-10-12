@@ -1,0 +1,37 @@
+Public Class App
+Public Static Void Method main
+    Try for an exception
+        Create a file with the name "exercise41_input.txt"
+
+            Create a Scanner object to read the file
+
+            Create an ArrayList of type String
+
+            While the file has another line to read
+                Add the line to the ArrayList
+
+            Sort the ArrayList;
+
+            Call the OutputFile class and its createOutputFile method, and send the ArrayList
+
+            Close the File reader (the Scanner)
+
+    Catch the exception if it occurs
+        Print out "File not found."
+
+Public Class OutputFile
+Public Static Void Method createOutputFile (make the argument type ArrayList<String>)
+    Try for an exception
+        Create a FileWriter with the name "exercise41_output,txt"
+
+        Write "Total of (size of ArrayList) names" into the FileWriter
+
+        Write "-----------------" into the FileWriter
+
+        For as long as there is a String in the ArrayList
+            Write the String into the FileWriter, followed by a next-line character
+
+        Close the FileWriter
+
+    Catch the exception if it occurs
+        Print out "Something went wrong."

@@ -1,0 +1,25 @@
+Public Class App
+Public Static Void Method main
+    Create an object for the Info class
+
+    Print out "Last             First            Salary"
+
+    Print out "----------------------------------------"
+
+    Call the Info object and its method fileReader
+
+Public Class Info
+Public Static Void Method fileReader
+    Try for an exception
+        Create a file with the name "exercise42_input.txt"
+
+        Create a Scanner object to read the file
+
+        While the file has another line to read
+            Store the line into a String
+            Split the line when there are commas
+            Output the line, now modified
+
+    Catch an exception if it occurs
+        If an exception occurs, print out "The file has not been found."
+

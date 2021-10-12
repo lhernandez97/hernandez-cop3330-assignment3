@@ -1,0 +1,27 @@
+Public Class App
+Public Static Void main
+    Try for an exception
+        Create a file with the name "exercise45_input.txt"
+
+        Create a Scanner object to read input from the user
+
+        Print out "Please give a file name: "
+        Ask for user input of type String
+
+        Call the CreateFile class with its fileOutput method, and send the file and file name as arguments
+
+Public Class CreateFile
+Public Static Method fileOutput (take in a file and a String as arguments)
+    Try for an exception
+        Create a FileWriter with the name being the String argument
+
+        Create a Scanner object to read the file from the arguments
+
+        While the file has another line
+            Store the line into a String variable
+            Replace all the "utilize" in the line stored in the String variable to "use"
+            Write the line into the FileWriter
+            Add a next-line character for separation
+
+        Close the Scanner
+        Close the FileWriter
